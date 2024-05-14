@@ -1,18 +1,15 @@
-# Real-Time-Animal-Species-Detection
+# Animal-Species-Detection
 The aim of this project is to develop an efficient computer vision model capable of real-time wildlife detection.
 
-<p align="center">
-  <img src="./demo/demo.gif" alt="Demo GIF">
-</p>
+
 
 ## Table of Contents
-- [Datasets](#datasets)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Evaluation](#evaluation)
-- [Web App](#web-app)
-- [Contirbuting](#contributing)
-- [Author](#author)
+* Dataset
+* Project structure
+* Getting Code
+* Web App
+* Contributing
+
 
 ## Datasets
 The dataset used in this project consists of labeled images of 10 different animal classes: Buffalo, Cheetahs, Deer, Elephant, Fox, Jaguars, Lion, Panda, Tiger, Zebra. You can find the datasets: 
@@ -41,7 +38,7 @@ The dataset used in this project consists of labeled images of 10 different anim
     ├── README.md
     └── requirements.txt
 
-## Getting Started
+## Getting Code
 Follow theses steps to set up the environment and run the application.
 1. Fork the repository [here](https://github.com/ldebele/animal-Species-Detection).
 2. Clone the forked repository.
@@ -75,20 +72,9 @@ Follow theses steps to set up the environment and run the application.
     streamlit run './scripts/app.py'
     ```
 
-## Evaluation
-The performance of the model is evaluated by metrics such as Precision, Recal, and Mean Average Precision (mAP).
-
-| Model   | Precision | Recall | F1-score | mAP@0.5 | mAP@0.5:0.95 |
-|---------|-----------|--------|----------|---------|--------------|
-| YOLOv8  |   0.944   |  0.915 |   0.93   |   0.95  |    0.804     |
-
-
 ## Web App
 The trained model has been deployed on Hugging Face for practical use.
-- you can access the deployed [web app](https://huggingface.co/spaces/ldebele/animal_detection_app)
+- you can access the deployed [web app](http://localhost:8501/)
 
 ## Contributing
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or a pull request.
-
-## Author
-- `Lemi Debele`

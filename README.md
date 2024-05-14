@@ -10,7 +10,7 @@ The aim of this project is to develop an efficient computer vision model capable
  * Get code
  * Web App
  * contributing
- * Athour
+ 
 
 # Dataset-
 The dataset used in this project consists of labeled images of 10 different animal classes: Buffalo, Cheetahs, Deer, Elephant, Fox, Jaguars, Lion, Panda, Tiger, Zebra. You can find the datasets:
@@ -18,6 +18,27 @@ The dataset used in this project consists of labeled images of 10 different anim
 [Dataset](https://www.kaggle.com/datasets/biancaferreira/african-wildlife)
 
 # project structure-
+
+
+    ├── config
+    │  └── custom.yaml    
+    ├── data
+    │   ├── images         
+    │   └── labels         
+    ├── logs
+    │   └── log.log      
+    ├── notebooks
+    │   └── yolov8.ipynb
+    ├── runs
+    │   └── detect
+    │       ├── train
+    │       └── val
+    ├── scripts
+    │   ├── app.py
+    │   ├── convert_format.py
+    │   └── train_test_split.py
+    ├── README.md
+    └── requirements.txt
 config: Holds configuration files (custom.yaml) for specifying training settings like learning rate and batch size.
 
 data: Contains directories:
@@ -79,7 +100,5 @@ you can access the deployed [web app](http://localhost:8501/)
 
 Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or a pull request.
 
-# Author
- * Lemi Debele
 
     

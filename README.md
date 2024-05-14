@@ -38,6 +38,27 @@ The dataset used in this project consists of labeled images of 10 different anim
     ├── README.md
     └── requirements.txt
 
+config: Holds configuration files (custom.yaml) for specifying training settings like learning rate and batch size.
+
+data: Contains directories:
+
+images: Stores images used for training and inference.
+labels: Potentially holds annotation files corresponding to the images.
+logs: Stores logs (log.log) generated during model training, which help evaluate performance and troubleshoot issues.
+
+notebooks: Houses Jupyter notebooks (yolov8.ipynb) for interactive experimentation and result analysis with the YOLOv8 model.
+
+runs: Includes subdirectories:
+
+train: Stores model checkpoints and outputs generated during training.
+val: Holds validation metrics and results.
+scripts: Contains Python scripts (app.py, convert_format.py, train_test_split.py) for tasks like inference and data preprocessing.
+
+README.md: Provides project information, purpose, setup instructions, and usage guidelines.
+
+requirements.txt: Lists Python libraries and dependencies required to run the project, ensuring easy setup and reproducibility of the environment.
+
+
 ## Getting Code
 Follow theses steps to set up the environment and run the application.
 1. Fork the repository [here](https://github.com/ldebele/animal-Species-Detection).

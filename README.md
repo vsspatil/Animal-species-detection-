@@ -1,7 +1,7 @@
 # Animal-Species-Detection
 The aim of this project is to develop an efficient computer vision model capable of real-time wildlife detection.
 
-![ss1](https://github.com/vsspatil/Animal-species-detection-/assets/161450181/eaafbbf1-c32b-44fe-8928-2103cc35fda5)
+![ss1]()
 
 
 
